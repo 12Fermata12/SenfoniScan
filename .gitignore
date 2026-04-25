@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Config files with sensitive keys
+config.json
+.env
+
+# Generated Reports
+Report_*/
+
+# OS specific
+.DS_Store
+Thumbs.db
