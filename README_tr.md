@@ -99,7 +99,7 @@ SenfoniScan kendi kendini yapılandırır. Sadece betiği çalıştırın; sanal
 
 1. **Depoyu klonlayın:**
    ```bash
-   git clone https://github.com/12Fermata12/SenfoniScan.git
+   git clone https://github.com/mefkuz/SenfoniScan.git
    cd SenfoniScan
    ```
 
