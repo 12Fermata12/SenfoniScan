@@ -86,6 +86,7 @@ graph TD;
 ---
 
 ### 🚀 Quick Install (Recommended)
+
 You can install SenfoniScan globally via PyPI:
 ```bash
 pip install senfoniscan
