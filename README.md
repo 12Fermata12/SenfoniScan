@@ -1,4 +1,4 @@
-/><div align="center">
+<div align="center">
 
 # 🕵️ SenfoniScan v3.0.1
 **The Ultimate AI-Powered Passive Reconnaissance CLI & DevSecOps Platform**
