@@ -109,7 +109,7 @@ SenfoniScan is self-bootstrapping. Simply run the script, and it will handle the
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/mefkuz/SenfoniScan.git
+   git clone https://github.com/12Fermata12/SenfoniScan.git
    cd SenfoniScan
    ```
 
