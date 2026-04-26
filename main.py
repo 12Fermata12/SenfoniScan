@@ -95,7 +95,7 @@ def print_banner():
     console.print()
     console.print(
         Panel.fit(
-            "[bold cyan]SenfoniScan v2.0[/bold cyan] [dim]|[/dim] "
+            "[bold cyan]SenfoniScan v3.0[/bold cyan] [dim]|[/dim] "
             "[white]AI-Powered Passive Reconnaissance CLI[/white]\n"
             "[dim]DNS • Subdomain(Async) • Screenshots • Wayback • Cloud • Shodan • HIBP • AI Report[/dim]",
             border_style="dim cyan",
@@ -223,7 +223,7 @@ def main(url, lang, fast, no_screenshot, max_screenshots, shodan_key, hibp_key,
          openai_key, gemini_key, claude_key, groq_key, ai_model, no_hibp, no_ai, output, webhook, export_pdf):
     """
     \b
-    SenfoniScan v2.0 - AI-Powered Passive Reconnaissance CLI
+    SenfoniScan v3.0 - AI-Powered Passive Reconnaissance CLI
     ═══════════════════════════════════════════════════════════
     Generates DNS, subdomain, screenshot, Wayback, Shodan,
     HIBP, and AI reports without touching the target.

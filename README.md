@@ -97,12 +97,20 @@ playwright install chromium
 
 ## 🛠 Installation
 
+### Method 1: via PyPI (Recommended)
+You can install SenfoniScan directly using `pip` (or `pipx` for isolated installation):
+
+```bash
+pip install senfoniscan
+```
+
+### Method 2: Manual (Self-Bootstrapping)
 SenfoniScan is self-bootstrapping. Simply run the script, and it will handle the virtual environment and all dependencies automatically.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/mefkuz/senfoniscan.git
-   cd senfoniscan
+   git clone https://github.com/mefkuz/SenfoniScan.git
+   cd SenfoniScan
    ```
 
 2. **Run it!:**
