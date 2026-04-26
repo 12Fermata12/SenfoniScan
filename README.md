@@ -1,4 +1,4 @@
-<img width="1372" height="765" alt="image" src="https://github.com/user-attachments/assets/2322be4f-4661-4569-825c-80211ebe89b0" /><div align="center">
+/><div align="center">
 
 # 🕵️ SenfoniScan v3.0.1
 **The Ultimate AI-Powered Passive Reconnaissance CLI & DevSecOps Platform**
