@@ -149,27 +149,27 @@ To avoid typing out your API keys repeatedly, SenfoniScan generates a `config.js
 
 **Basic Full Scan (Defaults to Local AI - Ollama):**
 ```bash
-./.venv/bin/python main.py -u example.com
+senfoniscan -u example.com
 ```
 
 **Fast Scan using Groq (Skips Wayback & Cloud Checks, finishes in seconds):**
 ```bash
-./.venv/bin/python main.py -u example.com --fast --groq-key YOUR_KEY
+senfoniscan -u example.com --fast --groq-key YOUR_KEY
 ```
 
 **DevSecOps Mode (PDF Export & Webhook Notification):**
 ```bash
-./.venv/bin/python main.py -u example.com --export-pdf --webhook "https://discord..."
+senfoniscan -u example.com --export-pdf --webhook "https://discord..."
 ```
 
 **Turkish Language Output:**
 ```bash
-./.venv/bin/python main.py -u example.com --lang tr
+senfoniscan -u example.com --lang tr
 ```
 
 **Skipping Specific Phases:**
 ```bash
-./.venv/bin/python main.py -u example.com --no-screenshot --no-hibp --no-ai
+senfoniscan -u example.com --no-screenshot --no-hibp --no-ai
 ```
 
 ---
@@ -188,7 +188,7 @@ SenfoniScan supports 5 different AI providers natively. It automatically selects
 
 You can force a specific model by using `--ai-model`:
 ```bash
-./.venv/bin/python main.py -u example.com --openai-key XXX --ai-model o1-mini
+senfoniscan -u example.com --openai-key XXX --ai-model o1-mini
 ```
 
 ---
