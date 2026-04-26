@@ -1,0 +1,12 @@
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.git
+.gitignore
+Report_*
+*.egg-info
+dist
+build
+.DS_Store

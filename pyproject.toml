@@ -1,14 +1,14 @@
 [build-system]
-requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "senfoniscan"
-version = "2.0.0"
+version = "2.0.1"
 description = "AI-Powered Passive Reconnaissance CLI Tool"
 readme = "README.md"
 license = { text = "MIT" }
-authors = [{ name = "SenfoniScan" }]
+authors = [{ name = "SenfoniScan", email = "info@senfoniscan.com" }]
 requires-python = ">=3.10"
 keywords = ["cybersecurity", "recon", "osint", "passive", "reconnaissance", "ai"]
 classifiers = [
@@ -29,10 +29,15 @@ dependencies = [
     "shodan>=1.28",
     "ollama>=0.1",
     "openai>=1.0",
+    "ipwhois>=1.2.0",
+    "python-whois>=0.8.0",
 ]
 
 [project.scripts]
 senfoniscan = "main:main"
+
+[tool.setuptools]
+py-modules = ["main"]
 
 [tool.setuptools.packages.find]
 where = ["."]
