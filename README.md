@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🕵️ SenfoniScan v3.0
+# 🕵️ SenfoniScan v3.0.1
 **The Ultimate AI-Powered Passive Reconnaissance CLI & DevSecOps Platform**
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://python.org)
