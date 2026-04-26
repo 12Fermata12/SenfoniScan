@@ -19,3 +19,8 @@ Report_*/
 # OS specific
 .DS_Store
 Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
