@@ -85,6 +85,15 @@ graph TD;
 
 ---
 
+### 🚀 Quick Install (Recommended)
+You can install SenfoniScan globally via PyPI:
+```bash
+pip install senfoniscan
+playwright install chromium
+```
+
+---
+
 ## 🛠 Installation
 
 SenfoniScan is self-bootstrapping. Simply run the script, and it will handle the virtual environment and all dependencies automatically.
@@ -103,13 +112,7 @@ SenfoniScan is self-bootstrapping. Simply run the script, and it will handle the
 *(Note: On its first run, it will install required `pip` packages, download Playwright Chromium binaries, and verify `ollama`.)*
 
 ---
-### 🚀 Quick Install (Recommended)
-You can install SenfoniScan globally via PyPI:
-```bash
-pip install senfoniscan
-playwright install chromium
-```
----
+
 ## ⚙️ Configuration
 
 To avoid typing out your API keys repeatedly, SenfoniScan generates a `config.json` file on its first run.
