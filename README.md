@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1372" height="765" alt="image" src="https://github.com/user-attachments/assets/2322be4f-4661-4569-825c-80211ebe89b0" /><div align="center">
 
 # 🕵️ SenfoniScan v3.0.1
 **The Ultimate AI-Powered Passive Reconnaissance CLI & DevSecOps Platform**
@@ -109,7 +109,7 @@ SenfoniScan is self-bootstrapping. Simply run the script, and it will handle the
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/12Fermata12/SenfoniScan.git
+   git clone https://github.com/mefkuz/SenfoniScan.git
    cd SenfoniScan
    ```
 
